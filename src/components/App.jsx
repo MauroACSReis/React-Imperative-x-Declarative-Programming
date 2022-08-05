@@ -5,14 +5,14 @@ var isDone = false;
 function strike() {
   //// Imperative
   document.getElementById("root").style.textDecoration = "line-through";
-  //// Declarative
+  //// Declarative (needs useState)
   // isDone = true;
 }
 
 function unStrike() {
   //// Imperative
   document.getElementById("root").style.textDecoration = null;
-  //// Declarative
+  //// Declarative (needs useState)
   // isDone = false;
 }
 
